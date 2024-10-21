@@ -1,0 +1,10 @@
+﻿@model List<_6.Models.Product>
+
+<h2>Інформація про замовлення</h2>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>@product.Name - @product.Quantity одиниць</li>
+    }
+</ul>

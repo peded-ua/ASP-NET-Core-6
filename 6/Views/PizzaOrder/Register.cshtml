@@ -1,0 +1,14 @@
+﻿@model _6.Models.User
+
+<h2>Реєстрація</h2>
+<form asp-action="Register" method="post">
+    <div>
+        <label for="Name">Ім'я</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label for="Age">Вік</label>
+        <input asp-for="Age" type="number" />
+    </div>
+    <button type="submit">Підтвердити</button>
+</form>
